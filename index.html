@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="progress-container">
+        <h3>Progress</h3>
+    </div>
+    <div class="wrapper">
+        <div class="content">
+            <div class="circular" id="progress-circle">
+                <div class="inner"></div>
+            </div>
+            <div class="controls">
+                <div class="label">
+                    <input type="text" id="progress-input" min="0" max="100" value="0"/>
+                    <span class="text">Value</span>
+                </div>
+                <div class="label">
+                    <div class="button r" id="button-1">
+                        <input type="checkbox" class="checkbox" id="animate-checkbox"/>
+                        <div class="knobs"></div>
+                        <div class="layer"></div>
+                    </div>
+                    <span class="text">Animate</span>
+                </div>
+                <div class="label">
+                    <div class="button r" id="button-2">
+                        <input type="checkbox" class="checkbox" id="hide-checkbox"/>
+                        <div class="knobs"></div>
+                        <div class="layer"></div>
+                    </div>
+                    <span class="text">Hide</span>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="scripts.js"></script>
+</body>
+</html>
